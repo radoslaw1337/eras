@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lexend Deca';
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  min-height: 100vh;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+header:after {
+  display: block;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 0;
+  background-color: rgba(38, 37, 37, 0.8);
+}
+header .content {
+  position: absolute;
+  z-index: 1;
+}
+header .content h1 {
+  color: #9369b5;
+  font-size: 35px;
+  font-weight: 900;
+  text-shadow: 2px 2px 2px #4c3162;  
+}
+@media screen and (min-width: 480px) {
+  header .content h1 {
+    font-size: 40px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h1 {
+    font-size: 45px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h1 {
+    font-size: 50px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h1 {
+    font-size: 55px;
+  }
+}
+header .content h2 {
+  color: #9369b5;
+  font-size: 50px;
+  font-weight: 1337;
+  margin: -10px 0px;
+  text-shadow: 2px 2px 2px #4c3162;
+}
+@media screen and (min-width: 480px) {
+  header .content h2 {
+    font-size: 70px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content h2 {
+    font-size: 80px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content h2 {
+    font-size: 90px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content h2 {
+    font-size: 100px;
+  }
+}
+header .content .countdown {
+  color: #C176CC;
+  font-size: 50px;
+  font-weight: 900;
+  text-shadow: 2px 2px 50px #87538f;
+}
+@media screen and (min-width: 480px) {
+  header .content .countdown {
+    font-size: 60px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .content .countdown {
+    font-size: 95px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .content .countdown {
+    font-size: 105px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .content .countdown {
+    font-size: 120px;
+  }
+}
+header .playlista {
+  position: relative;
+  z-index: 1;
+  margin-top: 700px;
+ }
+header .playlista h3 {
+  color: #9369b5;
+  font-size: 30px;
+  font-weight: 900;
+  text-shadow: 2px 2px 1px #4c3162;  
+}
+@media screen and (min-width: 480px) {
+  header .playlista h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 768px) {
+  header .playlista h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1024px) {
+  header .playlista h3 {
+    font-size: 30px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  header .playlista h3 {
+    font-size: 30px;
+  }
+}
