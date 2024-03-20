@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: "Lexend Deca";
+  font-family: "Montserrat", sans-serif;
 }
 
 header {
@@ -38,7 +38,7 @@ header .content {
 header .content h1 {
   color: #9369b5;
   font-size: 35px;
-  font-weight: 900;
+  font-weight: 700;
   text-shadow: 2px 2px 2px #4c3162;
 }
 @media screen and (min-width: 480px) {
@@ -64,7 +64,7 @@ header .content h1 {
 header .content h2 {
   color: #9369b5;
   font-size: 50px;
-  font-weight: 1337;
+  font-weight: 700;
   margin: -10px 0px;
   text-shadow: 2px 2px 2px #4c3162;
 }
@@ -91,7 +91,7 @@ header .content h2 {
 header .content .countdown {
   color: #c176cc;
   font-size: 50px;
-  font-weight: 900;
+  font-weight: 800;
   text-shadow: 2px 2px 50px #87538f;
 }
 @media screen and (min-width: 480px) {
@@ -122,7 +122,7 @@ header .playlista {
 header .playlista h3 {
   color: #9369b5;
   font-size: 30px;
-  font-weight: 900;
+  font-weight: 600;
   text-shadow: 2px 2px 1px #4c3162;
 }
 @media screen and (min-width: 480px) {
